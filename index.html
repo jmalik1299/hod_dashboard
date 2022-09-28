@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <aside class="infobar">
+        <h2 class="info-heading" id="info-heading">Test</h2>
+        <p class="info-text" id="info-text" >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi ratione odit perferendis incidunt veniam dicta omnis ad pariatur suscipit, expedita eaque beatae aliquam, reprehenderit quasi, accusantium quidem! Hic, cumque ut!</p>
+    </aside>
+    <dir></dir>
+    <div class="main">
+        <header class="top">
+            <header class="first-row">
+                <img src="img/logo-buc.png" alt="Logo of bottom-up.city">
+                <h1 class="heading">Dashboard</h1>
+            </header>
+            <header class="second-row">
+                <a class="menu-point" href="#" onClick='document.getElementById("iframe").src="htmls/bubble_1.html"; document.getElementById("info-heading").innerHTML = "bubble"; document.getElementById("info-text").innerHTML = "very nice";'>
+                    <span class="material-symbols-outlined">bubble_chart</span>
+                    Bubble-Chart
+                </a>
+                <a class="menu-point" href="#" onClick='document.getElementById("iframe").src="htmls/map.html"; document.getElementById("info-heading").innerHTML = "map"; document.getElementById("info-text").innerHTML = "super";'>
+                    <span class="material-symbols-outlined">map</span> 
+                    Interactive-Map
+                </a>
+                <a class="menu-point" href="#" onClick='document.getElementById("iframe").src="htmls/network_dortmund.html"; document.getElementById("info-heading").innerHTML = "edge"; document.getElementById("info-text").innerHTML = "auch gut";'>
+                    <span class="material-symbols-outlined">hub</span>
+                    Edgenetwork
+                </a>
+            </header>
+        </header>
+        <iframe src="htmls/bubble_1.html" id="iframe"></iframe>
+        <footer>
+            <p class="copyright">Copyright &copy; bottom-up.city 2022</p>
+        </footer>
+    </div>   
+
+</body>
+</html>
